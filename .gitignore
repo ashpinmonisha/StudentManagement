@@ -1,0 +1,46 @@
+@'
+# Build output
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# NuGet
+*.nupkg
+packages/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+appsettings.Development.json
+secrets.json
+
+# Logs
+*.log
+logs/
+
+# Test results
+TestResults/
+
+# Publish output
+publish/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Database files
+*.mdf
+*.ldf
+*.db
+'@ | Set-Content .gitignore
